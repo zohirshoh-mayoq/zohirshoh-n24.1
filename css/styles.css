@@ -600,11 +600,11 @@ html{
     display: flex;
 }
 
-.smi i{
+.smi img{
     margin: 0;
     margin-right: 25px;
 }
 
-.smi i :last-child{
+.smi img :last-child{
     margin: 0;
 }  
