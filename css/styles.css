@@ -75,7 +75,7 @@ html{
     width: 275px;
     height: 45px;
     border: 0;
-    margin: 0;
+    margin-left: 5px;
     margin-right: 19px;
     padding: 0;
     padding: 15px;
@@ -102,6 +102,14 @@ html{
     line-height: 19px;
     color: rgb(255, 255, 255);
     font-family: 'Rubik', sans-serif;
+}
+
+.main-link:hover{
+    background-color: rgba(114, 150, 236, 0.8);
+}
+
+.main-link:active{
+    background-color: rgba(114, 150, 236, 0.6);
 }
 
 
@@ -151,7 +159,9 @@ html{
 }
 
 .site-menu-hr{
-    border: 1px solid rgb(209, 209, 209);
+    border: none;
+    height: 1px;
+    background-color: rgb(209, 209, 209);
     width: 100%;
     margin: 0;
     margin-top: 20px;
@@ -217,7 +227,7 @@ html{
     font-size: 20px;
     line-height: 26px;
     color: rgb(0, 0, 0);
-
+    font-style: normal;
 }
 
 .text p{
@@ -230,7 +240,7 @@ html{
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-
+    color: #4A4B4C;
 }
 
 .cart-img{
@@ -262,6 +272,12 @@ html{
     margin: 0;
     padding: 0;
     font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #4A4B4C;
+    size: 12px;
 }
 
 
@@ -308,9 +324,14 @@ html{
     background-color: rgb(247, 139, 59);
     border-radius: 10px;
     margin-right: 42px;
+}
 
+.link-noti:hover{
+    background-color: rgba(247, 139, 59, 0.8);
+}
 
-    
+.link-noti:active{
+    background-color: rgba(247, 139, 59, 0.6);
 }
 
 .link-noti a{   
@@ -391,6 +412,7 @@ html{
 
 .logo-news {
     display: flex;
+    align-items: center;
 }
 
 .logo-news img{
@@ -404,6 +426,11 @@ html{
     margin: 0;
     padding: 0;
     font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;
 }
 
 .fourth-news{
@@ -479,11 +506,12 @@ html{
 }
 
 .main-hr{
-    border: 1px solid rgb(210, 210, 210);
-    color: rgba(210, 210, 210, 1);
+    height: 1px ;
+    background-color: rgba(210, 210, 210, 1);
     margin: 0;
     margin-bottom: 20px;
     padding: 0;
+    border: none;
 }
 
 .first-tm{
@@ -575,8 +603,11 @@ html{
 }
 
 .footer-hr{
-    margin: 30px 0 30px;
+    margin: 30px 0 ;
     padding: 0;
+    border: none;
+    height: 1px;
+    background-color: #FFFFFF;
 }
 
 .footer-end{
@@ -600,11 +631,23 @@ html{
     display: flex;
 }
 
-.smi img{
-    margin: 0;
-    margin-right: 25px;
+.last-smii{
+    margin-right: 0;
 }
 
-.smi img :last-child{
-    margin: 0;
-}  
+.fb {
+    margin-right: 25px;
+    margin-bottom: 0;
+}
+.ig {
+    margin-right: 25px;
+    margin-bottom: 0;
+}
+.tg {
+    margin-right: 25px;
+    margin-bottom: 0;
+}
+.yt {
+    margin-right: 0;
+    margin-bottom: 0;
+}
